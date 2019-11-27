@@ -1,0 +1,26 @@
+{
+  "name": "@wuwei-hx/redux-helper",
+  "version": "0.1.0",
+  "description": "Helpers to create actions, reducers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuwei-hx/redux-helper.git"
+  },
+  "keywords": [
+    "redux",
+    "actions",
+    "reducers",
+    "helpers"
+  ],
+  "author": "David Wu",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
