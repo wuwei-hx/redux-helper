@@ -1,6 +1,6 @@
 {
   "name": "@wuwei-hx/redux-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helpers to create actions, reducers",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/wuwei-hx/redux-helper.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "redux",
     "actions",
@@ -19,7 +22,7 @@
     "helpers"
   ],
   "author": "David Wu",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^3.7.2"
   }
